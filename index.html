@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Fund Me App</title>
+</head>
+
+<body>
+
+
+
+
+
+  <style>
+    .html {
+      background-color:rgb(39, 42, 122); ;
+    }
+
+    .navbar {
+      display: flex;
+      flex-direction: row;
+      /* background-color: rgb(39, 42, 122); */
+      ;
+    }
+
+    #logo {
+      width: 63px;
+      height: 63px;
+      padding: 1px 20px;
+    }
+
+    #logo-social {
+      width: 26px;
+      height: 26px;
+      padding: 10px 2px 7px 8px;
+    }
+
+    .logo-social-media {
+      display: flex;
+      flex-direction: row;
+      padding: 10px 284px 13px 477px;
+    }
+
+    #connectButton {
+      color: rgb(0, 0, 0);
+      font-size: 1.2rem;
+      border: 3px solid #cf8080;
+      border-radius: 14px;
+      padding: 6px;
+    }
+
+    #connectButton:hover {
+      cursor: pointer;
+      color: red;
+      background-color: black;
+    }
+
+    #conection-top {
+      padding-top: 14px;
+    }
+
+    /* hatch */
+    .hatch {
+      display: flex;
+      /* background-color: rgb(39, 42, 122); */
+      flex-direction: row;
+    }
+
+    .egg {
+      display: block;
+      height: 225px;
+      width: 225px;
+      /* margin: 15px 7px; */
+      padding: 25px 13px;
+      /* border: 17px solid red; */
+      /* border-radius: 99px; */
+      justify-content: center;
+      align-items: center;
+      margin: 3px auto;
+      display: flex;
+      justify-content: center;
+      flex-flow: column;
+      margin: 5px 5px;
+      padding: 80px 90px;
+      color: white;
+      font-size: 1.2rem;
+    }
+
+    .egg:hover {
+      cursor: pointer;
+      background-color: beige;
+    }
+
+    .egg img {
+
+      height: 225px;
+      width: 225px;
+    }
+.payment-eth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /* background: green; */
+}
+    /* #fundButton{
+display: contents;
+height: 24px;
+width: 24px;
+justify-content: center;
+margin: auto;
+
+    }
+    #ethAmount{
+display: contents;
+height: 24px;
+width: 24px;
+justify-content: center;
+margin: auto;
+
+    } */
+  </style>
+
+  <body>
+
+    <section class="navbar">
+
+      <div class=""> <img id="logo" src="./images/logo_main.jpeg" alt="" srcset="">
+      </div>
+      <div class="logo-social-media">
+        <div class=""> <img id="logo-social" src="./images/instagram.png" alt=""> </div>
+        <div class=""> <img id="logo-social" src="./images/discord.png" alt=""></div>
+        <div class=""> <img id="logo-social" src="./images/youtube.png" alt=""></div>
+        <!-- <link rel="stylesheet" href="blob:https://web.whatsapp.com/c1805bc5-2389-48ac-978d-6bc93c9167ab"> -->
+      </div>
+      <div id="connection-top" class=""> <button id="connectButton"> Connect to Wallet</button> </div>
+
+    </section>
+
+    <section class="hatch">
+      <div class="egg"><img src="./images/egg1.webp" alt="">Lorem, ipsum dolor.</div>
+      <div class="egg"><img src="./images/egg2.webp" alt="">Lorem, ipsum dolor.</div>
+      <div class="egg"><img src="./images/egg3.webp" alt="">Lorem, ipsum dolor.</div> 
+      <!-- <label for="ethAmount">ethAmount</label>
+      <input id="ethAmount" placeholder="0.1" />
+      <button id="fundButton"> Fund amount </button> -->
+      </section>
+      <section class="payment-eth" >
+      
+<label for="ethAmount">ethAmount</label>
+<input id="ethAmount" placeholder="0.1" />
+<button id="fundButton"> Fund amount </button>
+
+
+      <!-- <div class="egg"><img src="./images/egg.jpeg" alt="">Lorem, ipsum dolor.</div> -->
+      <!-- <div class=""><img src="./images/youtube.png" alt=""></div> -->
+    </section>
+
+
+  </body>
+
+
+
+
+
+
+
+  <!-- <button id="connectButton">Connect</button> -->
+  <!-- <button id="balanceButton">getBalance</button> -->
+  <!-- <button id="withdrawButton">Withdraw</button> -->
+  <!-- <form> -->
+
+  <!-- </form> -->
+
+
+  <script src="./index.js" type="module"></script>
+  
+
+</html>
